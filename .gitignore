@@ -1,0 +1,14 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de lock e config locais
+package-lock.json
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
