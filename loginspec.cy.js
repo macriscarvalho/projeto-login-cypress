@@ -1,12 +1,10 @@
 describe('Orange HRM Tests', () => {
-
   const selectorsList = {
     usernameField: "[name='username']",
     passwordField: "[name='password']",
     loginButton: "[type='submit']",
     sectionTitleTopBar: ".oxd-topbar-header-title",
     wrongCredentialAlert: "[role='alert']"
-    //constante 
   }
 
   it('Login - Success', () => {
@@ -26,5 +24,4 @@ describe('Orange HRM Tests', () => {
     cy.get(selectorsList.loginButton).click();
     cy.get(selectorsList.wrongCredentialAlert);
   });
-
 });
